@@ -97,7 +97,7 @@ li{
 
 :root{
     --first-color:#fff;
-    --second-color: rgb(223, 37, 84);
+    --second-color: #df2554;
     --third-color:#a9afc3;
     
     --hover-color:rgb(223, 37, 84);
@@ -422,6 +422,11 @@ header.sticky .nav-bar{
     font-size: 3em;
     margin-bottom: 30px;
 }
+.skills-card > img{
+    color: var(--second-color);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
 
 .skills-card h3{
     font-size: 1.5em;
@@ -429,6 +434,7 @@ header.sticky .nav-bar{
     line-height: 30px;
     margin-bottom: 20px;
 }
+
 
 .skills-card:hover{
     transform: translateY(-15px);
